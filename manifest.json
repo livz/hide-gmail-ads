@@ -1,7 +1,7 @@
 {
   "name": "Hide GMail Ads",
   "version": "1.0",
-  "description": "Use js and css to hide gmail ads",
+  "description": "Use css to hide gmail ads",
   "browser_action": {
     "default_icon": "images/icon19.png"
   },
