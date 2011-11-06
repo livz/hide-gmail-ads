@@ -26,4 +26,6 @@ References:
   * http://code.google.com/chrome/extensions/devguide.html
   * http://thecodingbug.com/blog/2010/3/7/creating-a-to-do-extension-for-chrome-part-1/
   * http://www.iconfinder.com
+  * http://jsfiddle.net/
+  * http://www.w3.org/TR/2001/CR-css3-selectors-20011113/
  

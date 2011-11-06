@@ -1,4 +1,14 @@
-/* Hide the right side ads */
-div.nH.HbF0O{ 
-  display: none;
+/*
+ * Remove Google ads
+ */
+
+/* Remove right side ads in emails */
+div.nH.HbF0O { 
+  display: none; 
+}
+
+/* Remove right side ads in vertical split view*/
+table.Bs.nH.dFFoge.id.dGpsQd tr:nth-child(1)
+  td[class="Bu"]:nth-child(2) {
+  display: none; 
 }
