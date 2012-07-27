@@ -1,5 +1,5 @@
 /*
- * Remove Google ads
+ * Remove GMail ads
  */
 
 /* Remove right side ads in emails */
@@ -12,3 +12,11 @@ table.Bs.nH.dFFoge.id.dGpsQd tr:nth-child(1)
   td[class="Bu"]:nth-child(2) {
   display: none; 
 }
+
+/* Remove ads at the end of the email in Chromium on Ubuntu */
+div.nH.PS { 
+  display: none; 
+}
+
+/* todo */
+/* resize email content width after removing ads */

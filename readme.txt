@@ -9,17 +9,27 @@
  
  
   
-The css could be tested also by modifying this file:
-%userprofile%\Local Settings\Application Data\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
+1. The css could be tested also by modifying this file:
+Windows: 
+   %userprofile%\Local Settings\Application Data\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
+Ubuntu 9.04 (Backtrack 5 R2):
+  ~/.config/chromium/Default/User StyleSheets/gedit Custom.css
   
-Directory of already installed extensions:
-%userprofile%\Local Settings\Application Data\Google\Chrome\User Data\Default\Extensions\
+2. Directory of already installed extensions:
+Windows:
+   %userprofile%\Local Settings\Application Data\Google\Chrome\User Data\Default\Extensions\
+Ubuntu:
+   ~/.config/chromium/Default/Extensions/
 
-Other extensions:
+3. Start Chromium with extensions allowed:
+- Create a panel shortcut and add "--enable-extensions" to command line:
+/usr/bin/chromium-browser %U --enable-extensions
+
+4. Other extensions:
  - Ad-blocker for Gmail
    https://chrome.google.com/webstore/detail/coibnogmjcpbccgjofoiklnfpbbjbapo
 
-References:
+5. References:
   * http://code.google.com/chrome/extensions/getstarted.html
   * http://code.google.com/chrome/extensions/content_scripts.html
   * http://code.google.com/chrome/extensions/faq.html
