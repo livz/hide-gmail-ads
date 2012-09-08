@@ -13,7 +13,7 @@
 Windows: 
    %userprofile%\Local Settings\Application Data\Google\Chrome\User Data\Default\User StyleSheets\Custom.css
 Ubuntu 9.04 (Backtrack 5 R2):
-  ~/.config/chromium/Default/User StyleSheets/gedit Custom.css
+  ~/.config/chromium/Default/User StyleSheets/Custom.css
   
 2. Directory of already installed extensions:
 Windows:
